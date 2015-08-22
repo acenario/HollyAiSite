@@ -24,6 +24,15 @@
 		var year = d.getFullYear();
 		document.write(year)
 		}
+        
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-4871933-7', 'auto');
+              ga('require', 'linkid', 'linkid.js');
+              ga('send', 'pageview');
 
 		</script>
     </head>
@@ -41,7 +50,7 @@
                                 <h1 class="deep-orange-text lighten-1 thin">Hi! I&apos;m Holly</h1>
                                 <h2 class="deep-orange-text lighten-1 thin">Let me remind you.</h2>
                                 <h4 class="midnight-blue-text thin">Life moves too quickly for a calendar:</h4>
-                                <h4 class="midnight-blue-text thin">Just shoot me a text, and I&apos;ll call, text, or email anyone -- even your friends.</h4>
+                                <h4 class="midnight-blue-text thin">Just shoot me a text, and I&apos;ll call, text, or email anyone &mdash; even your friends.</h4>
                                 <div style="padding-top:20px">
                                 <div class="row">
                                     <a class="waves-effect waves-light btn-large deep-orange lighten-1" href="sms://+16194323787"><i class="material-icons left">textsms</i>TEXT (619)-HEADSUP</a>
@@ -174,6 +183,5 @@
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <script src="devices.js"></script>
       <script src="js/init.js"></script>
-      <script src="js/ga.js"></script>
     </body>
   </html>
