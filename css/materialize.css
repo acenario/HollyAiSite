@@ -5934,8 +5934,10 @@ button.btn-floating {
     cursor: default; }
 
 .btn-large {
-  height: 54px;
-  line-height: 56px; }
+  height: 74px;
+  line-height: 77px; 
+  font-size: 24px;
+  }
   .btn-large i {
     font-size: 1.6rem; }
 
